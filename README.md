@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A console-based Task Tracker built in Java for managing daily tasks with priority levels, categories, due dates, and status tracking — structured using OOP principles and package-based architecture.
+A console-based Task Tracker built in **Java** for managing daily tasks with priority levels, categories, due dates, and status tracking — structured using OOP principles and package-based architecture.
 
 ---
 ## 🔗 Live Demo  
