@@ -48,7 +48,7 @@ Task-Tracker-Application/
 
 ```bash
 git clone https://github.com/Subi121/task-tracker-app.git
-cd task-tracker
+cd task-tracker-app
 javac main/Main.java model/*.java service/*.java
 java main.Main
 ```
