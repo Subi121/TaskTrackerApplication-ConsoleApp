@@ -47,7 +47,7 @@ Task-Tracker-Application/
 ## 🚀 Run the Project
 
 ```bash
-git clone https://github.com/Subi121/task-tracker.git
+git clone https://github.com/Subi121/task-tracker-app.git
 cd task-tracker
 javac main/Main.java model/*.java service/*.java
 java main.Main
@@ -62,12 +62,6 @@ java main.Main
 * Email reminders for upcoming due dates
 * Database integration using JDBC / MySQL
 * GUI version using JavaFX or Swing
-
----
-
-## 👩‍💻 Author
-
-**Subiksha S** — Java Developer
 
 ---
 
