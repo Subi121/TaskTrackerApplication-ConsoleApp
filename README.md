@@ -1,46 +1,76 @@
-# Task Tracker Application
+# ✅ Task Tracker Application
 
-This project demonstrates a simple **Java console-based Task Tracker application** used to manage daily tasks. It focuses on implementing **core Java concepts** and **Object-Oriented Programming** principles to perform basic task management operations.
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Type](https://img.shields.io/badge/Type-Console%20App-blue)
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## Overview
+A console-based Task Tracker built in Java for managing daily tasks with priority levels, categories, due dates, and status tracking — structured using OOP principles and package-based architecture.
 
-Task Tracker is designed to help users create, view, update, and manage tasks through a console interface. The application provides a simple menu-driven system and helps in understanding how real-world applications are structured using classes and services.
+---
 
-## Features
+## ✨ Features
 
-- Add new tasks  
-- View all tasks  
-- Update task details  
-- Delete tasks  
-- Mark tasks as completed  
-- Console-based menu system  
+* Add, view, and delete tasks
+* Mark tasks as completed or pending
+* Task categorization and priority management
+* Due date handling using `LocalDate`
+* `TaskStatus` enum for clean state management
+* Menu-driven console interface
 
-## Project Structure
+---
 
-- **Task** – Represents task details such as id, title, and status  
-- **TaskService** – Contains business logic for managing tasks  
-- **Main** – Handles user interaction and menu operations  
+## 🛠️ Tech Stack
 
-## Concepts Used
+* Java 17
+* OOP — Encapsulation, Enums, Classes & Objects
+* Collections Framework (`ArrayList`)
+* Java Time API (`LocalDate`)
 
-- Core Java  
-- Object-Oriented Programming (OOP)  
-- Classes and Objects  
-- Encapsulation  
-- Collections (ArrayList)
+---
 
-## How It Works
+## 📂 Project Structure
 
-The application runs through a console menu. Users select operations such as adding, viewing, updating, or deleting tasks. Tasks are stored in memory using collections and managed through service methods.
+```
+Task-Tracker-Application/
+├── main/
+│   └── Main.java          → Menu interaction and user input
+├── model/
+│   ├── Task.java          → Task entity (title, priority, due date, status)
+│   └── TaskStatus.java    → Enum for task states (PENDING, COMPLETED)
+└── service/
+    └── TaskService.java   → Business logic for all task operations
+```
 
-## Learning Outcome
+---
 
-This project helps in understanding:
+## 🚀 Run the Project
 
-- Java console application development  
-- CRUD operations  
-- OOP-based project structure  
-- List and data handling in Java  
- 
+```bash
+git clone https://github.com/Subi121/task-tracker.git
+cd task-tracker
+javac main/Main.java model/*.java service/*.java
+java main.Main
+```
 
+---
 
+## 🔭 Future Improvements
+
+* File handling for persistent task storage
+* Search and filter by priority, category, or due date
+* Email reminders for upcoming due dates
+* Database integration using JDBC / MySQL
+* GUI version using JavaFX or Swing
+
+---
+
+## 👩‍💻 Author
+
+**Subiksha S** — Java Developer
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
