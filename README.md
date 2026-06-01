@@ -51,8 +51,8 @@ Task-Tracker-Application/
 ## 🚀 Run the Project
 
 ```bash
-git clone https://github.com/Subi121/task-tracker-app.git
-cd task-tracker-app
+git clone https://github.com/Subi121/task-tracker-cli.git
+cd task-tracker-cli
 javac main/Main.java model/*.java service/*.java
 java main.Main
 ```
